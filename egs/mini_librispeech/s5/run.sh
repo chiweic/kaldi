@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # Change this location to somewhere where you want to put the data.
+# add comment to test credential
 data=./corpus/
 
 data_url=www.openslr.org/resources/31

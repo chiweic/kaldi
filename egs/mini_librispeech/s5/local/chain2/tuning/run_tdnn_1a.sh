@@ -328,7 +328,7 @@ if [ $stage -le 22 ]; then
     --stage $train_stage --cmd "$train_cmd" \
     --xent-regularize $xent_regularize --leaky-hmm-coefficient 0.1 \
     --max-param-change 2.0 \
-    --num-jobs-initial 2 --num-jobs-final 5 \
+    --num-jobs-initial 2 --num-jobs-final 2 \
     --minibatch-size 256,128,64 \
      $dir/egs $dir || exit 1;
 fi

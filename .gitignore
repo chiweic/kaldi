@@ -88,3 +88,6 @@ GSYMS
 
 # corpus generated from minilibrispeech
 /egs/*/*/corpus/
+
+# src matrix bin
+src/matrix/*.bin

@@ -20,7 +20,7 @@
 
 
 # corpus directory and download URL
-data=/export/a05/xna/data
+data=/disk-01/data
 data_url=www.openslr.org/resources/62
 
 # Obtain the database
